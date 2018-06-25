@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.alumne.sallelibrary.LibroSeleccionado">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/ttextonombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/nombreautor"
+        android:textSize="32sp"/>
+    <TextView
+        android:id="@+id/textonombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ttextonombre"
+        android:layout_centerHorizontal="true"
+        android:text="@string/nombreautor" />
+    <TextView
+        android:id="@+id/ttitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textonombre"
+        android:layout_centerHorizontal="true"
+        android:text="@string/titulo"
+        android:textSize="32sp"/>
+    <TextView
+    android:id="@+id/titulo"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/ttitulo"
+    android:layout_centerHorizontal="true"
+    android:text="@string/titulo" />
+
+    <TextView
+    android:id="@+id/tdescripcion"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/titulo"
+    android:layout_centerHorizontal="true"
+    android:text="@string/descripcion"
+
+        android:textSize="32dp"/>
+
+    <TextView
+        android:id="@+id/descripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tdescripcion"
+        android:layout_centerHorizontal="true"
+        android:text="@string/descripcion" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/descripcion"
+        android:layout_margin="@dimen/fab_margin"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/insertfav"
+        android:text="@string/insfav"/>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <declare-styleable name="MyView">
+        <attr name="dateFormat" format="string"/>
+    </declare-styleable>
+</resources>

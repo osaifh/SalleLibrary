@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "843282045971",
+    "firebase_url": "https://sallelibrary.firebaseio.com",
+    "project_id": "sallelibrary",
+    "storage_bucket": "sallelibrary.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:843282045971:android:43e989f195430ecf",
+        "android_client_info": {
+          "package_name": "com.example.alumne.sallelibrary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "843282045971-6vvpu0rcovintm7le5pv92ooeabrvq42.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.alumne.sallelibrary",
+            "certificate_hash": "43ab792878b50a80d53922b87a51d6b533e692df"
+          }
+        },
+        {
+          "client_id": "843282045971-6ld6aff6hsc9bajfa39217n6bvppokpb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrTSrE21nuxCVy-DOPQ2OARbKo1WCF0vk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "843282045971-6ld6aff6hsc9bajfa39217n6bvppokpb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
